@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://vtop.vit.ac.in/vtop/initialProcess -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta name="description" content="VTOP : An Official VIT, Vellore Web Portal">
+	<meta name="”robots”" content="”NOODP,NOYDIR”">
+	<meta name="keywords" content="VTOP, vtop, SDC,sdc ">
+    <!--<base href="https://vtop.vit.ac.in/vtop/">--><base href=".">
+   	<meta http-equiv="cache-control" content="max-age=0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+
+    <title>Vellore Institute of Technology (VIT)</title>
+    
+    
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>VIT Vellore - VTOP</title>
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+		<link rel="icon" type="image/png" href="https://vtop.vit.ac.in/vtop/assets/img/favicon.png">
+		<link rel="stylesheet" href="./Vellore Institute of Technology (VIT)_files/jquery-ui.css">
+		<link rel="stylesheet" href="./Vellore Institute of Technology (VIT)_files/bootstrap.css">
+ 		<link rel="stylesheet" href="./Vellore Institute of Technology (VIT)_files/bootstrapValidator.css">
+		<link rel="stylesheet" href="./Vellore Institute of Technology (VIT)_files/font-awesome.min.css">
+		<link rel="stylesheet" href="./Vellore Institute of Technology (VIT)_files/AdminLteCompatibility.css">
+		<link rel="stylesheet" href="./Vellore Institute of Technology (VIT)_files/VTopScrollbar.css">
+		<link rel="stylesheet" href="./Vellore Institute of Technology (VIT)_files/VTop.css">		
+		<link rel="stylesheet" href="./Vellore Institute of Technology (VIT)_files/scrollableTable.css">
+		<script src="./Vellore Institute of Technology (VIT)_files/jquery-3.3.1.js.download"></script>
+		
+	
+    
+</head>
+<body class="VTopBody" style="padding-top: 50px;" data-new-gr-c-s-check-loaded="14.1055.0" data-gr-ext-installed="" data-new-gr-c-s-loaded="14.1055.0">
+
+		
+		<div id="page_outline">
+	 	
+ 			
+
+			
+
+
+		 	
+		
+				
+		<style>
+			.standardHeight {
+				height:100vh;
+			}
+		</style>
+		<div id="page-holder" class="trim standardHeight">
+			
+
+				<header>
+ 	
+		<nav class="navbar navbar-default navbar-fixed-top VTopHeader">
+			 <div class="container-fluid">
+			    <div class="navbar-header">
+				    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			            <span class="sr-only">Toggle navigation</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+		            </button>
+
+			            <div class="navbar-brand">
+							<button type="button" class="box" id="menu-toggle" onclick="toggleVTopMenu()">
+								<span></span>
+								<span></span>
+								<span></span>
+			  				</button>
+					      <span>
+						    <!-- page-holder -->
+						    
+						   </span>  
+						    	
+						    
+						   
+						  
+						   
+						   <span class="VITLogoStyle">VIT</span> 
+						   <span class="VITSubLogoStyle">(Vellore Campus)</span> &nbsp;
+						   
+						   <input type="hidden" name="authorizedID" id="authorizedID" value="19BCE0172">
+						   <!-- <button type="button" class="btn btn-default btn-sm" th:onclick="'javascript:goHomePage();'"><span class="glyphicon glyphicon-home"></span></button> -->
+						   <!-- <button type="button" th:onclick="'javascript:goHomePage();'"><span style="color:blue" class="glyphicon glyphicon-home"></span></button> -->
+						   <a href="javascript:goHomePage();" data-toggle="tooltip" title="Go To Home Page"><span style="color:white" class="glyphicon glyphicon-home"></span></a>
+						 
+						  <script type="text/javascript">
+							    function goHomePage()
+							    {						    	
+									var data = "authorizedID="+document.getElementById("authorizedID").value;
+									ajaxCall("goHomePage",data,"page_outline");
+							    }
+							</script>
+						   
+						   <!-- <a id="btnHome" onclick="ajaxCall('goHomePage','authorizedID=15231','page_outline')"><span style="color:white" class="glyphicon glyphicon-home"></span></a> -->
+		                     		    
+		                    		    
+		                    	       
+						</div>
+			    </div>
+			    <div id="navbar" class="navbar-collapse collapse">
+					<ul class="hidden-xs nav navbar-nav navbar-right" style="margin:auto;">
+						<li>
+			                <a data-toggle="dropdown" class="dropdown-toggle small" href="https://vtop.vit.ac.in/vtop/#">
+				                <span class="VTopHeaderStyle"><img src="./Vellore Institute of Technology (VIT)_files/saved_resource" class="img-circle img_icon_size" alt="User Image">
+				                <span>19BCE0172(STUDENT)</span>
+				                <span><b class="caret"></b></span></span>
+			                </a>
+			                <ul class="dropdown-menu VTopHeaderMenu">
+			                    <li><a href="https://vtop.vit.ac.in/vtop/#" class="text-center"><span><img src="./Vellore Institute of Technology (VIT)_files/saved_resource" class="img-circle img_stamp_size" alt="User Image"></span></a></li>
+			                    <li><a href="https://vtop.vit.ac.in/vtop/#" class="text-center"><span style="white-space: initial;"></span></a></li>
+			                    <li>
+			                    <div class="btn-group btn-group-justified">
+				                    			                    
+				                    <a class="btn btn-success" href="javascript:void(0)" onclick="ajaxCall(&#39;processLogout&#39;,null,&#39;page_outline&#39;)">Sign out</a>
+				                </div></li>
+			                </ul>
+			            </li>						
+		            </ul>
+					<!-- <ul class="visible-xs nav navbar-nav navbar-right VTopHeaderMenu"> -->
+						<ul class="visible-xs nav navbar-nav navbar-right VTopHeaderMenu" style="margin:auto;">
+		                    <li><a href="https://vtop.vit.ac.in/vtop/#" class="text-center"><span><img src="./Vellore Institute of Technology (VIT)_files/saved_resource" class="img-circle img_stamp_size" alt="User Image"></span></a></li>
+		                    <li><a href="https://vtop.vit.ac.in/vtop/#" class="text-center"><span style="white-space: initial;" class="VTopHeaderStyle"></span></a></li>
+		                    <li class="text-center"><span class="VTopHeaderStyle">19BCE0172 (STUDENT)</span></li>
+		                    <li>
+		                    	
+		                     		                    
+		                    <a class="btn btn-success" href="javascript:void(0)" onclick="ajaxCall(&#39;processLogout&#39;,null,&#39;page_outline&#39;)"><span class="VTopHeaderStyle">Sign out</span></a></li>
+		            </ul>				    
+				 </div>
+			</div>
+		</nav>
+		<script>
+ 			$(document).ready(function() {
+				$("body").css("padding-top", $(".navbar-fixed-top").height());
+/*   				var winHeight=$( window ).height()+150;
+ 				$("#button-panel").css("height",winHeight+"px");
+ 				$("#sidebar-wrapper").css("height",winHeight+"px");
+ */ 			});
+			
+
+ 			function toggleVTopMenu() {
+				$("#wrapper").toggleClass("menuDisplayed");
+				if (window.matchMedia('(max-width: 767px)').matches) {
+					$('#button-panel').toggle();
+				}
+			}
+ 			
+ 		 	function toggleButtonMenuItem() {
+				if (window.matchMedia('(max-width: 767px)').matches) {
+					$('#button-panel').toggle();
+				}
+ 			} 
+ 			
+ 			
+		</script>			
+	</header>
+
+				<input type="hidden" name="authorizedIDX" id="authorizedIDX" value="19BCE0172">
+
+				<div class="container-fluid standardHeight">
+					<div class="row standardHeight">
+						<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 trim standardHeight">
+
+							
+
+								<div id="wrapper" class="standardHeight">
+									<div id="sidebar-wrapper" class="hidden-xs nav nav-sidebar standardHeight">
+										<aside>
+
+		
+			<div class="panel panel-default"><div class="panel-heading"></div>  <div id="MenuBody2"><div class="panel-body"> <ul class="nav"><li><a href="javascript:loadmydiv(&#39;hrms/contactDetails&#39;)" id="HRM0062">	 <i class="fa fa-phone-square" style="padding-right:12px;"></i>&nbsp;&nbsp; Contact Us</a></li>
+		
+			</ul><div class="panel-group" role="tablist" id="accordian0"><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian0" href="https://vtop.vit.ac.in/vtop/#MenuBody3" aria-expanded="false">  <i class="fa fa-briefcase" style="width:23px" ;=""></i>&nbsp;&nbsp; My Info </a></h4></div> <div id="MenuBody3" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;studentsRecord/StudentProfileAllView&#39;)" id="STA002">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Profile</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;proctor/viewStudentCredentials&#39;)" id="ADM0218">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Credentials</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;admissions/dayboarderForMenu&#39;)" id="ADM0216">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Dayboarder Info</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;admissions/AcknowledgmentView&#39;)" id="ADM0217">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Acknowledgement View</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;alternate/idcard/student/page&#39;)" id="OTH0028">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; My Digital ID Card</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;covid/vaccine/student&#39;)" id="OTH0029">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Vaccinated Details</a></li>
+		
+			</ul></div></div></div><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian0" href="https://vtop.vit.ac.in/vtop/#MenuBody4" aria-expanded="false">  <i class="fa fa-info-circle" style="width:23px" ;=""></i>&nbsp;&nbsp; Info Corner </a></h4></div> <div id="MenuBody4" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/common/FaqPreview&#39;)" id="ACD0273">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; FAQ</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;spotlight/spotlightViewOld&#39;)" id="CPL0038">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Spotlight </a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;admissions/costCentreCircularsViewPageController&#39;)" id="ACD0147">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; General</a></li>
+		
+			</ul></div></div></div><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian0" href="https://vtop.vit.ac.in/vtop/#MenuBody5" aria-expanded="false">  <i class="fa fa-paw" style="width:23px" ;=""></i>&nbsp;&nbsp; Proctor </a></h4></div> <div id="MenuBody5" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;proctor/viewProctorDetails&#39;)" id="PRC0001">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Proctor Details</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;proctor/viewMessagesSendByProctor&#39;)" id="PRC0002">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Proctor Message</a></li>
+		
+			</ul></div></div></div><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian0" href="https://vtop.vit.ac.in/vtop/#MenuBody6" aria-expanded="false">  <i class="fa fa-graduation-cap" style="width:23px" ;=""></i>&nbsp;&nbsp; Academics </a></h4></div> <div id="MenuBody6" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;hrms/viewHodDeanDetails&#39;)" id="ACD0163">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; HOD and Dean Info</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;hrms/employeeSearchForStudent&#39;)" id="ACD0167">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Faculty Info</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/common/StudentClassGrievance&#39;)" id="ACD0280">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Course Feedback 24x7</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/common/StudentClassMessage&#39;)" id="ACD0152">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Class Messages</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/council/CouncilRegulationView/new&#39;)" id="ACD0120">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Regulation</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/common/Curriculum&#39;)" id="ACD0104">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; My Curriculum</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/additionalLearning/AdditionalLearningStudentView&#39;)" id="ACD0211">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Minor/ Honour</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/common/StudentTimeTable&#39;)" id="ACD0034">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Time Table</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/OnlineCOC/StudentOnlineCOC&#39;)" id="ACD0241">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Course Option Change</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/common/CourseWithDraw&#39;)" id="ACD0236">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Course Withdraw</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/common/StudentAttendance&#39;)" id="ACD0042">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Class Attendance</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/common/StudentCoursePage&#39;)" id="ACD0045">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Course Page</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;internship/InternshipRegistration&#39;)" id="ACD0057">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Industrial Internship </a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/common/ProjectView&#39;)" id="ACD0088">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Project</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;examinations/StudentDA&#39;)" id="EXM0017">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Digital Assignment Upload</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/common/QCMStudentLogin&#39;)" id="ACD0071">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; QCM View </a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;set/setRegistrationViewPage&#39;)" id="ACD0059">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; SET Conference Registration</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/common/ExtraCurricular&#39;)" id="ACD0047">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Co-Extra Curricular</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/common/WishlistStudent&#39;)" id="ACD0079">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; WishList Registraion </a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;academics/common/CalendarPreview&#39;)" id="ACD0128">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Academics</a></li>
+		
+			</ul></div></div></div><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian0" href="https://vtop.vit.ac.in/vtop/#MenuBody7" aria-expanded="false">  <i class="fa fa-bank" style="width:23px" ;=""></i>&nbsp;&nbsp; Research </a></h4></div> <div id="MenuBody7" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;research/researchProfile&#39;)" id="RSH0001">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; My Research Profile</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;admissions/semTransactionPageControllerGeneral&#39;)" id="RSH0104">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; SEM Request</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;research/CourseworkRegistration&#39;)" id="RSH0053">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Course Work Registration</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;research/CourseworkRegistrationViewtoScholar&#39;)" id="RSH0054">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Registration Status</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;research/scholarsMeetingView&#39;)" id="RSH0056">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Meeting info</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;research/researchLettersStudentView&#39;)" id="RSH0111">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-file-text" style="padding-right:2px"></i>&nbsp;&nbsp; Research Letters</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;research/thesisSubmission&#39;)" id="RSH0114">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Electronic Thesis Submission</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;research/researchDocumentUpload&#39;)" id="RSH0116">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Research Document Upload</a></li>
+		
+			</ul></div></div></div><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian0" href="https://vtop.vit.ac.in/vtop/#MenuBody8" aria-expanded="false">  <i class="fa fa-book" style="width:23px" ;=""></i>&nbsp;&nbsp; Examination </a></h4></div> <div id="MenuBody8" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;examinations/StudExamSchedule&#39;)" id="EXM0006">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Exam Schedule</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;examinations/StudentMarkView&#39;)" id="EXM0011">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Marks</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;examinations/examGradeView/StudentGradeView&#39;)" id="EXM0065">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Grades</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;examinations/paperSeeing/PaperSeeing&#39;)" id="EXM0070">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Paper See/Rev</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;examinations/examGradeView/StudentGradeHistory&#39;)" id="EXM0023">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Grade History</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;examinations/projectFileUpload/ProjectView&#39;)" id="EXM0069">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Project File Upload</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;examinations/gotToMoocCourseInitial&#39;)" id="EXM0172">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; MOOC File upload</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;examinations/ecaUpload/viewCourse&#39;)" id="EXM0046">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; ECA File Upload</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;compre/eptScheduleShow&#39;)" id="VEX0009">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; EPT schedule</a></li>
+		
+			</ul><div class="panel-group" role="tablist" id="accordian2"><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian2" href="https://vtop.vit.ac.in/vtop/#MenuBody9" aria-expanded="false"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp; Comprehensive </a></h4></div> <div id="MenuBody9" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;compre/registrationForm&#39;)" id="COM0001">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Comprehensive Exam</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;compre/questionPreview&#39;)" id="COM0005">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Question Preview</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;compre/studentExamInfo&#39;)" id="COM0002">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Exam Information</a></li>
+		
+			</ul></div></div></div><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian2" href="https://vtop.vit.ac.in/vtop/#MenuBody10" aria-expanded="false"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp; Arrear Details </a></h4></div> <div id="MenuBody10" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			</ul><div class="panel-group" role="tablist" id="accordian3"><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian3" href="https://vtop.vit.ac.in/vtop/#MenuBody11" aria-expanded="false"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp; Regular Arrear </a></h4></div> <div id="MenuBody11" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;examinations/arrearRegistration/RegularArrearStudentReg&#39;)" id="EXM0088">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Registration</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;examinations/arrearRegistration/LoadRegularArrearViewPage&#39;)" id="EXM0093">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Registration Details</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;examinations/arrearRegistration/viewRARExamSchedule&#39;)" id="EXM0107">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Exam Schedule</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;examinations/arrearRegistration/StudentArrearGradeView&#39;)" id="EXM0127">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Grade View</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;examinations/regularArrear/RegularArrearPaperSeeing&#39;)" id="EXM0131">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Paper See/Rev</a></li>
+		
+			</ul></div></div></div></div></div></div><ul class="nav"><li><a href="javascript:loadmydiv(&#39;examinations/reFAT/StudentReFATRequestPageController&#39;)" id="EXM0138">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Re-Exam Application</a></li>
+		
+			</ul></div></div></div></div></div><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian0" href="https://vtop.vit.ac.in/vtop/#MenuBody12" aria-expanded="false">  <i class="fa fa-space-shuttle" style="width:23px" ;=""></i>&nbsp;&nbsp; Services </a></h4></div> <div id="MenuBody12" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;phyedu/facilityAvailable&#39;)" id="PHY0002">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Facility Registration</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;transport/transportRegistration&#39;)" id="TRN0002">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Transport Registration</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;pat/PatRegistrationProcess&#39;)" id="PAT0002">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; PAT Registration</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;hrms/onlineBookRecommendation&#39;)" id="LIB0002">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Online Book Recommendation</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;alumni/alumniTranscriptPageControl&#39;)" id="EXM0205">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Transcript Request</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;admissions/scholarshipPageController&#39;)" id="ADM0161">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Financial Assistance Scholarship</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;admissions/SpecialAchieversAwards&#39;)" id="ADM0163">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Achievements</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;admissions/programmeMigration&#39;)" id="ADM0194">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Programme Migration</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;hostels/late/hour/student/request/1&#39;)" id="HSL0143">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Late Hour Request</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;vitaa/finalyearcheck&#39;)" id="ALU0002">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Final Year Registration</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;sap/SapManage&#39;)" id="OTH0001">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; SAP Application</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;admissions/reserachFresherCertUpload&#39;)" id="ADM0227">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Certificate Upload</a></li>
+		
+			</ul></div></div></div><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian0" href="https://vtop.vit.ac.in/vtop/#MenuBody13" aria-expanded="false">  <i class="fa fa-certificate" style="width:23px" ;=""></i>&nbsp;&nbsp; Bonafide </a></h4></div> <div id="MenuBody13" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;others/bonafide/StudentBonafidePageControl&#39;)" id="OTH0011">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Apply Bonafide</a></li>
+		
+			</ul></div></div></div><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian0" href="https://vtop.vit.ac.in/vtop/#MenuBody14" aria-expanded="false">  <i class="fa fa-cc-visa" style="width:23px" ;=""></i>&nbsp;&nbsp; Online Payments </a></h4></div> <div id="MenuBody14" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;p2p/Payments&#39;)" id="FIN0135">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Payments</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;finance/getStudentWallet&#39;)" id="FIN0149">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Wallet Amount Add</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;p2p/getReceiptsApplno&#39;)" id="FIN0136">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Payment Receipts</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;finance/getFeesIntimation&#39;)" id="FIN0137">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Fees Intimation</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;finance/getOnlineTransfer&#39;)" id="FIN0139">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Online Transfer</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;p2p/library&#39;)" id="LIB0001">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Library Due</a></li>
+		
+			</ul></div></div></div><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian0" href="https://vtop.vit.ac.in/vtop/#MenuBody15" aria-expanded="false">  <i class="fa fa-home" style="width:23px" ;=""></i>&nbsp;&nbsp; Hostels </a></h4></div> <div id="MenuBody15" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;hostels/room/allotment/info/student/1&#39;)" id="HSL0019">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; My Room Information</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;hostels/student/leave/1&#39;)" id="HSL0021">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Leave Request</a></li>
+		
+			</ul></div></div></div><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian0" href="https://vtop.vit.ac.in/vtop/#MenuBody16" aria-expanded="false">  <i class="fa fa-book" style="width:23px" ;=""></i>&nbsp;&nbsp; ASC FDP </a></h4></div> <div id="MenuBody16" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;events/ASC/EventsRegistration&#39;)" id="EVE0009">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; FDP Registration</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;events/ASC/EventsCertificateDownload&#39;)" id="EVE0010">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Participant Certificate</a></li>
+		
+			</ul></div></div></div><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian0" href="https://vtop.vit.ac.in/vtop/#MenuBody17" aria-expanded="false">  <i class="fa fa-shield" style="width:23px" ;=""></i>&nbsp;&nbsp; Events </a></h4></div> <div id="MenuBody17" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			</ul><div class="panel-group" role="tablist" id="accordian1001"><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian1001" href="https://vtop.vit.ac.in/vtop/#MenuBody18" aria-expanded="false"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp; University Day </a></h4></div> <div id="MenuBody18" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;event/uday/certificates&#39;)" id="EVE0076">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; eCertificates</a></li>
+		
+			</ul></div></div></div></div></div></div></div><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian0" href="https://vtop.vit.ac.in/vtop/#MenuBody19" aria-expanded="false">  <i class="fa fa-trophy" style="width:23px" ;=""></i>&nbsp;&nbsp; SW Events </a></h4></div> <div id="MenuBody19" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;event/swf/loadRequisitionPage&#39;)" id="EVE0080">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Event Requisition</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;event/swf/loadEventAttendance&#39;)" id="EVE0085">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Event Attendance</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;event/swf/loadEventRegistration&#39;)" id="EVE0084">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o" style="padding-right:2px"></i>&nbsp;&nbsp; Event Registration</a></li>
+		
+			</ul></div></div></div><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" class="text-capitalize" data-parent="#accordian0" href="https://vtop.vit.ac.in/vtop/#MenuBody20" aria-expanded="false">  <i class="glyphicon glyphicon-lock" style="width:23px" ;=""></i>&nbsp;&nbsp; My Account </a></h4></div> <div id="MenuBody20" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+		
+			<li><a href="javascript:loadmydiv(&#39;controlpanel/ChangePassword&#39;)" id="CNTXXX1">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="glyphicon glyphicon-lock" style="padding-right:2px"></i>&nbsp;&nbsp; Change Password</a></li>
+		
+			<li><a href="javascript:loadmydiv(&#39;controlpanel/ChangePreferredUser&#39;)" id="CNTXXX3">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="glyphicon glyphicon-lock" style="padding-right:2px"></i>&nbsp;&nbsp; Update LoginID</a></li></ul></div></div></div></div>
+		
+		
+	</div></div></div></aside>
+
+									</div>
+									<div class="standardHeight" id="button-panel">
+										<aside>
+	
+		<script>
+			/*<![CDATA[*/
+				
+				$(document).ready(function(){
+	    			$(".dropdown, .btn-group").hover(function(){
+			        var dropdownMenu = $(this).children(".dropdown-menu");
+				        if(dropdownMenu.is(":visible")){
+				            dropdownMenu.parent().toggleClass("open");
+				        }
+				    });
+				});  
+	
+					$(document).ready(function(){
+						
+						$('a.btn.btn-default.btn-group-justified.dropdown-toggle').on('click', function(e) {
+							$("div[class='dropdown open']").removeClass('open');
+							$(this).parent().toggleClass('open');
+						});
+					});
+	
+	
+			 		$(document).ready(function(){
+					 	$('body').on('click', function (e) {
+	/*  				 		alert(e.target);
+					 		alert($('a.btnList').is(e.target));
+	 */ 					    if (!$('a.btnList').is(e.target) 
+						        && $('a.btnList').has(e.target).length === 0 
+						        && $('.open').has(e.target).length === 0 ) {
+						        $('a.btn.btn-default.btn-group-justified.dropdown-toggle').parent().removeClass('open');
+						    }
+						});    
+		 			});		 
+					 
+				
+				/*]]>*/
+			</script>		
+
+	<section>
+		<div class="btn-group-vertical dropright">
+					
+			
+				<div class="dropdown">	 <a class="btn btn-default btn-group-justified dropdown-toggle " type="button"><span class="fa fa-phone-square"></span></a> <div class="dropdown-menu btnList "><div class="panel panel-default"><div class="panel-body" style="padding-left:25px;font-size:12px;"><ul class="nav"><li><a href="javascript:loadmydiv(&#39;hrms/contactDetails&#39;)" id="HRM0062" class="btnItem" onclick="toggleButtonMenuItem()">  <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Contact Us</a></li></ul></div></div></div></div>
+			
+				<div class="dropdown">	 <a class="btn btn-default btn-group-justified dropdown-toggle " type="button"><span class="fa fa-briefcase"></span></a> <div class="dropdown-menu btnList "><div class="panel-group" role="tablist" id="BtnAccordian1"><div class="panel panel-default"><div class="panel-heading"> <h4 class="disabled text-capitalize text-center menu-header">&nbsp;&nbsp;My Info</h4> </div> <div id="BtnBody21112"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;studentsRecord/StudentProfileAllView&#39;)" id="STA002" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Profile</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;proctor/viewStudentCredentials&#39;)" id="ADM0218" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Credentials</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;admissions/dayboarderForMenu&#39;)" id="ADM0216" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Dayboarder Info</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;admissions/AcknowledgmentView&#39;)" id="ADM0217" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Acknowledgement View</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;alternate/idcard/student/page&#39;)" id="OTH0028" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;My Digital ID Card</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;covid/vaccine/student&#39;)" id="OTH0029" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Vaccinated Details</a></li>
+			
+				</ul></div></div></div></div></div></div><div class="dropdown">	 <a class="btn btn-default btn-group-justified dropdown-toggle " type="button"><span class="fa fa-info-circle"></span></a> <div class="dropdown-menu btnList "><div class="panel-group" role="tablist" id="BtnAccordian2"><div class="panel panel-default"><div class="panel-heading"> <h4 class="disabled text-capitalize text-center menu-header">&nbsp;&nbsp;Info Corner</h4> </div> <div id="BtnBody21113"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/common/FaqPreview&#39;)" id="ACD0273" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;FAQ</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;spotlight/spotlightViewOld&#39;)" id="CPL0038" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Spotlight </a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;admissions/costCentreCircularsViewPageController&#39;)" id="ACD0147" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;General</a></li>
+			
+				</ul></div></div></div></div></div></div><div class="dropdown">	 <a class="btn btn-default btn-group-justified dropdown-toggle " type="button"><span class="fa fa-paw"></span></a> <div class="dropdown-menu btnList "><div class="panel-group" role="tablist" id="BtnAccordian3"><div class="panel panel-default"><div class="panel-heading"> <h4 class="disabled text-capitalize text-center menu-header">&nbsp;&nbsp;Proctor</h4> </div> <div id="BtnBody21114"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;proctor/viewProctorDetails&#39;)" id="PRC0001" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Proctor Details</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;proctor/viewMessagesSendByProctor&#39;)" id="PRC0002" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Proctor Message</a></li>
+			
+				</ul></div></div></div></div></div></div><div class="dropdown">	 <a class="btn btn-default btn-group-justified dropdown-toggle " type="button"><span class="fa fa-graduation-cap"></span></a> <div class="dropdown-menu btnList "><div class="panel-group" role="tablist" id="BtnAccordian4"><div class="panel panel-default"><div class="panel-heading"> <h4 class="disabled text-capitalize text-center menu-header">&nbsp;&nbsp;Academics</h4> </div> <div id="BtnBody21115"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;hrms/viewHodDeanDetails&#39;)" id="ACD0163" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;HOD and Dean Info</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;hrms/employeeSearchForStudent&#39;)" id="ACD0167" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Faculty Info</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/common/StudentClassGrievance&#39;)" id="ACD0280" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Course Feedback 24x7</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/common/StudentClassMessage&#39;)" id="ACD0152" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Class Messages</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/council/CouncilRegulationView/new&#39;)" id="ACD0120" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Regulation</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/common/Curriculum&#39;)" id="ACD0104" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;My Curriculum</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/additionalLearning/AdditionalLearningStudentView&#39;)" id="ACD0211" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Minor/ Honour</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/common/StudentTimeTable&#39;)" id="ACD0034" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Time Table</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/OnlineCOC/StudentOnlineCOC&#39;)" id="ACD0241" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Course Option Change</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/common/CourseWithDraw&#39;)" id="ACD0236" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Course Withdraw</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/common/StudentAttendance&#39;)" id="ACD0042" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Class Attendance</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/common/StudentCoursePage&#39;)" id="ACD0045" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Course Page</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;internship/InternshipRegistration&#39;)" id="ACD0057" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Industrial Internship </a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/common/ProjectView&#39;)" id="ACD0088" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Project</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;examinations/StudentDA&#39;)" id="EXM0017" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Digital Assignment Upload</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/common/QCMStudentLogin&#39;)" id="ACD0071" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;QCM View </a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;set/setRegistrationViewPage&#39;)" id="ACD0059" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;SET Conference Registration</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/common/ExtraCurricular&#39;)" id="ACD0047" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Co-Extra Curricular</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/common/WishlistStudent&#39;)" id="ACD0079" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;WishList Registraion </a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;academics/common/CalendarPreview&#39;)" id="ACD0128" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Academics</a></li>
+			
+				</ul></div></div></div></div></div></div><div class="dropdown">	 <a class="btn btn-default btn-group-justified dropdown-toggle " type="button"><span class="fa fa-bank"></span></a> <div class="dropdown-menu btnList "><div class="panel-group" role="tablist" id="BtnAccordian5"><div class="panel panel-default"><div class="panel-heading"> <h4 class="disabled text-capitalize text-center menu-header">&nbsp;&nbsp;Research</h4> </div> <div id="BtnBody21116"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;research/researchProfile&#39;)" id="RSH0001" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;My Research Profile</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;admissions/semTransactionPageControllerGeneral&#39;)" id="RSH0104" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;SEM Request</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;research/CourseworkRegistration&#39;)" id="RSH0053" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Course Work Registration</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;research/CourseworkRegistrationViewtoScholar&#39;)" id="RSH0054" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Registration Status</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;research/scholarsMeetingView&#39;)" id="RSH0056" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Meeting info</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;research/researchLettersStudentView&#39;)" id="RSH0111" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-file-text"></i>&nbsp;&nbsp;Research Letters</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;research/thesisSubmission&#39;)" id="RSH0114" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Electronic Thesis Submission</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;research/researchDocumentUpload&#39;)" id="RSH0116" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Research Document Upload</a></li>
+			
+				</ul></div></div></div></div></div></div><div class="dropdown">	 <a class="btn btn-default btn-group-justified dropdown-toggle " type="button"><span class="fa fa-book"></span></a> <div class="dropdown-menu btnList "><div class="panel-group" role="tablist" id="BtnAccordian6"><div class="panel panel-default"><div class="panel-heading"> <h4 class="disabled text-capitalize text-center menu-header">&nbsp;&nbsp;Examination</h4> </div> <div id="BtnBody21117"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;examinations/StudExamSchedule&#39;)" id="EXM0006" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Exam Schedule</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;examinations/StudentMarkView&#39;)" id="EXM0011" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Marks</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;examinations/examGradeView/StudentGradeView&#39;)" id="EXM0065" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Grades</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;examinations/paperSeeing/PaperSeeing&#39;)" id="EXM0070" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Paper See/Rev</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;examinations/examGradeView/StudentGradeHistory&#39;)" id="EXM0023" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Grade History</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;examinations/projectFileUpload/ProjectView&#39;)" id="EXM0069" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Project File Upload</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;examinations/gotToMoocCourseInitial&#39;)" id="EXM0172" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;MOOC File upload</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;examinations/ecaUpload/viewCourse&#39;)" id="EXM0046" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;ECA File Upload</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;compre/eptScheduleShow&#39;)" id="VEX0009" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;EPT schedule</a></li>
+			
+				<div class="panel-group" role="tablist" id="BtnAccordian7"><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" data-parent="#BtnAccordian7" class="btnList" href="https://vtop.vit.ac.in/vtop/#BtnBody21118" aria-expanded="false"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Comprehensive</a></h4></div> <div id="BtnBody21118" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;compre/registrationForm&#39;)" id="COM0001" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Comprehensive Exam</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;compre/questionPreview&#39;)" id="COM0005" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Question Preview</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;compre/studentExamInfo&#39;)" id="COM0002" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Exam Information</a></li>
+			
+				</ul></div></div></div><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" data-parent="#BtnAccordian7" class="btnList" href="https://vtop.vit.ac.in/vtop/#BtnBody21119" aria-expanded="false"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Arrear Details</a></h4></div> <div id="BtnBody21119" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+			
+				<div class="panel-group" role="tablist" id="BtnAccordian8"><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" data-parent="#BtnAccordian8" class="btnList" href="https://vtop.vit.ac.in/vtop/#BtnBody21120" aria-expanded="false"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Regular Arrear</a></h4></div> <div id="BtnBody21120" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;examinations/arrearRegistration/RegularArrearStudentReg&#39;)" id="EXM0088" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Registration</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;examinations/arrearRegistration/LoadRegularArrearViewPage&#39;)" id="EXM0093" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Registration Details</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;examinations/arrearRegistration/viewRARExamSchedule&#39;)" id="EXM0107" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Exam Schedule</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;examinations/arrearRegistration/StudentArrearGradeView&#39;)" id="EXM0127" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Grade View</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;examinations/regularArrear/RegularArrearPaperSeeing&#39;)" id="EXM0131" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Paper See/Rev</a></li>
+			
+				</ul></div></div></div></div></ul></div></div></div><li><a href="javascript:loadmydiv(&#39;examinations/reFAT/StudentReFATRequestPageController&#39;)" id="EXM0138" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Re-Exam Application</a></li>
+			
+				</div></ul></div></div></div></div></div></div><div class="dropdown">	 <a class="btn btn-default btn-group-justified dropdown-toggle " type="button"><span class="fa fa-space-shuttle"></span></a> <div class="dropdown-menu btnList "><div class="panel-group" role="tablist" id="BtnAccordian8"><div class="panel panel-default"><div class="panel-heading"> <h4 class="disabled text-capitalize text-center menu-header">&nbsp;&nbsp;Services</h4> </div> <div id="BtnBody21121"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;phyedu/facilityAvailable&#39;)" id="PHY0002" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Facility Registration</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;transport/transportRegistration&#39;)" id="TRN0002" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Transport Registration</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;pat/PatRegistrationProcess&#39;)" id="PAT0002" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;PAT Registration</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;hrms/onlineBookRecommendation&#39;)" id="LIB0002" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Online Book Recommendation</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;alumni/alumniTranscriptPageControl&#39;)" id="EXM0205" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Transcript Request</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;admissions/scholarshipPageController&#39;)" id="ADM0161" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Financial Assistance Scholarship</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;admissions/SpecialAchieversAwards&#39;)" id="ADM0163" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Achievements</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;admissions/programmeMigration&#39;)" id="ADM0194" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Programme Migration</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;hostels/late/hour/student/request/1&#39;)" id="HSL0143" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Late Hour Request</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;vitaa/finalyearcheck&#39;)" id="ALU0002" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Final Year Registration</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;sap/SapManage&#39;)" id="OTH0001" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;SAP Application</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;admissions/reserachFresherCertUpload&#39;)" id="ADM0227" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Certificate Upload</a></li>
+			
+				</ul></div></div></div></div></div></div><div class="dropdown">	 <a class="btn btn-default btn-group-justified dropdown-toggle " type="button"><span class="fa fa-certificate"></span></a> <div class="dropdown-menu btnList "><div class="panel-group" role="tablist" id="BtnAccordian9"><div class="panel panel-default"><div class="panel-heading"> <h4 class="disabled text-capitalize text-center menu-header">&nbsp;&nbsp;Bonafide</h4> </div> <div id="BtnBody21122"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;others/bonafide/StudentBonafidePageControl&#39;)" id="OTH0011" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Apply Bonafide</a></li>
+			
+				</ul></div></div></div></div></div></div><div class="dropdown">	 <a class="btn btn-default btn-group-justified dropdown-toggle " type="button"><span class="fa fa-cc-visa"></span></a> <div class="dropdown-menu btnList "><div class="panel-group" role="tablist" id="BtnAccordian10"><div class="panel panel-default"><div class="panel-heading"> <h4 class="disabled text-capitalize text-center menu-header">&nbsp;&nbsp;Online Payments</h4> </div> <div id="BtnBody21123"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;p2p/Payments&#39;)" id="FIN0135" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Payments</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;finance/getStudentWallet&#39;)" id="FIN0149" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Wallet Amount Add</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;p2p/getReceiptsApplno&#39;)" id="FIN0136" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Payment Receipts</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;finance/getFeesIntimation&#39;)" id="FIN0137" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Fees Intimation</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;finance/getOnlineTransfer&#39;)" id="FIN0139" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Online Transfer</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;p2p/library&#39;)" id="LIB0001" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Library Due</a></li>
+			
+				</ul></div></div></div></div></div></div><div class="dropdown">	 <a class="btn btn-default btn-group-justified dropdown-toggle " type="button"><span class="fa fa-home"></span></a> <div class="dropdown-menu btnList "><div class="panel-group" role="tablist" id="BtnAccordian11"><div class="panel panel-default"><div class="panel-heading"> <h4 class="disabled text-capitalize text-center menu-header">&nbsp;&nbsp;Hostels</h4> </div> <div id="BtnBody21124"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;hostels/room/allotment/info/student/1&#39;)" id="HSL0019" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;My Room Information</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;hostels/student/leave/1&#39;)" id="HSL0021" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Leave Request</a></li>
+			
+				</ul></div></div></div></div></div></div><div class="dropdown">	 <a class="btn btn-default btn-group-justified dropdown-toggle " type="button"><span class="fa fa-book"></span></a> <div class="dropdown-menu btnList "><div class="panel-group" role="tablist" id="BtnAccordian12"><div class="panel panel-default"><div class="panel-heading"> <h4 class="disabled text-capitalize text-center menu-header">&nbsp;&nbsp;ASC FDP</h4> </div> <div id="BtnBody21125"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;events/ASC/EventsRegistration&#39;)" id="EVE0009" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;FDP Registration</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;events/ASC/EventsCertificateDownload&#39;)" id="EVE0010" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Participant Certificate</a></li>
+			
+				</ul></div></div></div></div></div></div><div class="dropdown">	 <a class="btn btn-default btn-group-justified dropdown-toggle " type="button"><span class="fa fa-shield"></span></a> <div class="dropdown-menu btnList "><div class="panel-group" role="tablist" id="BtnAccordian13"><div class="panel panel-default"><div class="panel-heading"> <h4 class="disabled text-capitalize text-center menu-header">&nbsp;&nbsp;Events</h4> </div> <div id="BtnBody21126"><div class="panel-body"> <ul class="nav">
+			
+				<div class="panel-group" role="tablist" id="BtnAccordian14"><div class="panel panel-default"><div class="panel-heading" role="tab">  <h4 class="menu-title"><a data-toggle="collapse" data-parent="#BtnAccordian14" class="btnList" href="https://vtop.vit.ac.in/vtop/#BtnBody21127" aria-expanded="false"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;University Day</a></h4></div> <div id="BtnBody21127" class="panel-collapse collapse"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;event/uday/certificates&#39;)" id="EVE0076" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;eCertificates</a></li>
+			
+				</ul></div></div></div></div></ul></div></div></div></div></div></div><div class="dropdown">	 <a class="btn btn-default btn-group-justified dropdown-toggle " type="button"><span class="fa fa-trophy"></span></a> <div class="dropdown-menu btnList "><div class="panel-group" role="tablist" id="BtnAccordian15"><div class="panel panel-default"><div class="panel-heading"> <h4 class="disabled text-capitalize text-center menu-header">&nbsp;&nbsp;SW Events</h4> </div> <div id="BtnBody21128"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;event/swf/loadRequisitionPage&#39;)" id="EVE0080" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Event Requisition</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;event/swf/loadEventAttendance&#39;)" id="EVE0085" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Event Attendance</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;event/swf/loadEventRegistration&#39;)" id="EVE0084" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;Event Registration</a></li>
+			
+				</ul></div></div></div></div></div></div><div class="dropdown">	 <a class="btn btn-default btn-group-justified dropdown-toggle " type="button"><span class="glyphicon glyphicon-lock"></span></a> <div class="dropdown-menu btnList "><div class="panel-group" role="tablist" id="BtnAccordian16"><div class="panel panel-default"><div class="panel-heading"> <h4 class="disabled text-capitalize text-center menu-header">&nbsp;&nbsp;My Account</h4> </div> <div id="BtnBody21129"><div class="panel-body"> <ul class="nav">
+			
+				<li><a href="javascript:loadmydiv(&#39;controlpanel/ChangePassword&#39;)" id="CNTXXX1" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="glyphicon glyphicon-lock"></i>&nbsp;&nbsp;Change Password</a></li>
+			
+				<li><a href="javascript:loadmydiv(&#39;controlpanel/ChangePreferredUser&#39;)" id="CNTXXX3" class="btnItem" onclick="toggleButtonMenuItem()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="glyphicon glyphicon-lock"></i>&nbsp;&nbsp;Update LoginID</a></li></ul></div></div></div></div></div></div>
+			
+			
+		</div>
+	</section>
+</aside>
+									</div>
+
+									<div class="standardHeight" id="pageContent-wrapper">
+										<div id="page-wrapper" class="col-md-12 content-center standardHeight">
+<!--
+  Author: Anithasree S
+  Date  : 18/07/2017
+-->
+
+
+
+<title>Industrial Internship</title>
+<link rel="stylesheet" href="./Vellore Institute of Technology (VIT)_files/datepicker3.css">
+<link rel="stylesheet" href="./Vellore Institute of Technology (VIT)_files/sweetalert.css">
+<script src="./Vellore Institute of Technology (VIT)_files/bootstrap-datepicker.js.download"></script>
+<script src="./Vellore Institute of Technology (VIT)_files/sweetalert.min.js.download"></script>
+
+
+	<div id="main-section"><div id="main-section">	
+		<section class="content">		
+			<div class="row">				
+				<div class="col-sm-12">
+					<div class="box box-info">
+						<div class="box-header with-border text-center">
+							<h3 class="box-title">Internship Day To Day Activities</h3>
+						</div>
+						<div class="form-group text-center">
+							<strong style="color: red"></strong>
+						</div>
+						<form class="form-horizontal" id="InternshipForm" autocomplete="off">
+						<input type="hidden" name="authorizedID" id="authorizedID" value="19BCE0172">
+						<div class="box-body">
+							<div class="form-group">									
+								<div class="col-xs-4 col-md-offset-10">
+									<button type="button" class="btn btn-danger btn-md" onclick="goBack(&#39;internship/InternshipRegistration&#39;);"> 
+												<span class="glyphicon glyphicon-backward"></span> Go Back
+									</button>
+								</div>
+							</div>							
+							<table class="table table-bordered" style="table-layout: fixed; ">
+								    <thead>
+								      <tr bgcolor="#546984" style="color:white;">
+								        <th>Date</th>
+								        <th>Activity</th>
+								        <th>Add Activity</th>
+								        <th colspan="1">Action</th>								        
+								      </tr>
+								    </thead>
+								    <tbody>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">27-Jan-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Introduction to Server-side Development</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R27-Jan-2022" name="R27-Jan-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R27-Jan-2022&#39;, &#39;C27-Jan-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R27-Jan-2022&#39;, &#39;C27-Jan-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C27-Jan-2022" name="C27-Jan-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;27-Jan-2022&#39;, &#39;R27-Jan-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">28-Jan-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">	
+Full Stack Web Development: The Big Picture: Objectives and Outcomes. Learnt about a big picture view of the Full Stack Web Development. . At the end of this lesson, I Understood what is meant by full stack in the context of web development Distinguish between front-end, back-end and full stack web development Understand the position of this course in the context of this specialization</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R28-Jan-2022" name="R28-Jan-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R28-Jan-2022&#39;, &#39;C28-Jan-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R28-Jan-2022&#39;, &#39;C28-Jan-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C28-Jan-2022" name="C28-Jan-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;28-Jan-2022&#39;, &#39;R28-Jan-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">29-Jan-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Setting up my Development Environment: Git: Objectives and Outcomes
+At the end of this lesson I set up Git on my computer.  I learnt the following things:
+
+Set up a Git repository and perform basic Git operations
+
+Set up and use online Git repositories</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R29-Jan-2022" name="R29-Jan-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R29-Jan-2022&#39;, &#39;C29-Jan-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R29-Jan-2022&#39;, &#39;C29-Jan-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C29-Jan-2022" name="C29-Jan-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;29-Jan-2022&#39;, &#39;R29-Jan-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">30-Jan-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">In this lesson you will learn the basics of Node.js and NPM. At the end of this lesson, I was able to:
+
+Download and install Node.js and NPM on my machine
+
+Verify that the installation was successful and your machine is ready for using Node.js and NPM.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R30-Jan-2022" name="R30-Jan-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R30-Jan-2022&#39;, &#39;C30-Jan-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R30-Jan-2022&#39;, &#39;C30-Jan-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C30-Jan-2022" name="C30-Jan-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;30-Jan-2022&#39;, &#39;R30-Jan-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">31-Jan-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">In this lesson I learnt more about the Node HTTP core module. You will create a simple HTTP server using the Node HTTP module and serve HTML files from a public folder. Along the way I learnt about the fs and path Node core modules. At the end of this lesson,I was able to: 
+
+Create a simple HTTP server using the Node HTTP core module
+
+Create a web server to serve static HTML files from a folder</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R31-Jan-2022" name="R31-Jan-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R31-Jan-2022&#39;, &#39;C31-Jan-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R31-Jan-2022&#39;, &#39;C31-Jan-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C31-Jan-2022" name="C31-Jan-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;31-Jan-2022&#39;, &#39;R31-Jan-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">01-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">In this lesson,I learnt about the Express framework that enables implementing and deploying powerful web servers based on Node. At the end of this lesson,I was able to:
+
+Implement a web server using the Express framework
+
+Develop a web server that supports a REST API
+
+Use Express router to implement support for the REST API</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R01-Feb-2022" name="R01-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R01-Feb-2022&#39;, &#39;C01-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R01-Feb-2022&#39;, &#39;C01-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C01-Feb-2022" name="C01-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;01-Feb-2022&#39;, &#39;R01-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">02-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Gave peer graded assignment. In this assignment I continued the exploration of Node modules, Express and the REST API. You will design two new express routers to support REST API end points for promotions and leadership.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R02-Feb-2022" name="R02-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R02-Feb-2022&#39;, &#39;C02-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R02-Feb-2022&#39;, &#39;C02-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C02-Feb-2022" name="C02-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;02-Feb-2022&#39;, &#39;R02-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">03-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Reviewed 3 peers' assignments and discussed with them their mistakes.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R03-Feb-2022" name="R03-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R03-Feb-2022&#39;, &#39;C03-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R03-Feb-2022&#39;, &#39;C03-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C03-Feb-2022" name="C03-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;03-Feb-2022&#39;, &#39;R03-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">04-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Express Generator: Objectives and Outcomes
+In this lesson I learnt about Express generator, a scaffolding tool to quickly generate an Express application with typical support for routes. I built an Express server to support REST API. At the end of this lesson, you will be able to:
+
+Quickly scaffold out a typical Express application using express-generator
+
+Build an Express server to support REST API</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R04-Feb-2022" name="R04-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R04-Feb-2022&#39;, &#39;C04-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R04-Feb-2022&#39;, &#39;C04-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C04-Feb-2022" name="C04-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;04-Feb-2022&#39;, &#39;R04-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">05-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Introduction to MongoDB: Objectives and Outcomes
+In this lesson I learnt the basics of MongoDB. I downloaded and setup MongoDB, and interacted with a MongoDB server using the mongo REPL shell. At the end of this lesson, I was able to :
+
+Explain the salient features of MongoDB and understand the difference between SQL and NoSQL databases.
+
+Download, install and run a MongoDB server and interact with it from the mongo REPL shell.
+
+</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R05-Feb-2022" name="R05-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R05-Feb-2022&#39;, &#39;C05-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R05-Feb-2022&#39;, &#39;C05-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C05-Feb-2022" name="C05-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;05-Feb-2022&#39;, &#39;R05-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">06-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Node and MongoDB: Objectives and Outcomes
+In this lesson, I learnt about the Node MongoDB driver module and how you can leverage it to communicate from your Node application with a MongoDB server. I used the Node module to perform various database operations. At the end of this lesson, I was able to:
+
+Configure your Node application to communicate with a MongoDB server
+
+Perform various database operations on the MongoDB server from my Node application using the Node MongoDB driver.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R06-Feb-2022" name="R06-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R06-Feb-2022&#39;, &#39;C06-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R06-Feb-2022&#39;, &#39;C06-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C06-Feb-2022" name="C06-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;06-Feb-2022&#39;, &#39;R06-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">07-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Mongoose ODM: Objectives and Outcomes
+In this lesson I learnt about Mongoose ODM and its use in setting up schemas and models to use MongoDB.
+
+Define and construct Mongoose schemas and models
+
+Interact with MongoDB server using Mongoose from my Node application.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R07-Feb-2022" name="R07-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R07-Feb-2022&#39;, &#39;C07-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R07-Feb-2022&#39;, &#39;C07-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C07-Feb-2022" name="C07-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;07-Feb-2022&#39;, &#39;R07-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">08-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Develop a full-fledged REST API server with Express, MongoDB and Mongoose
+
+Implement the end-to-end solution integrating Express, Node and Mongo.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R08-Feb-2022" name="R08-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R08-Feb-2022&#39;, &#39;C08-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R08-Feb-2022&#39;, &#39;C08-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C08-Feb-2022" name="C08-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;08-Feb-2022&#39;, &#39;R08-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">09-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Assignment 2 : In this assignment, I continued my journey with MongoDB and Mongoose.I created two new schemas for promotions and leadership, and then extend the Express REST API server to support the /promotions and the /leaders REST API end points.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R09-Feb-2022" name="R09-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R09-Feb-2022&#39;, &#39;C09-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R09-Feb-2022&#39;, &#39;C09-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C09-Feb-2022" name="C09-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;09-Feb-2022&#39;, &#39;R09-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">10-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">	
+Reviewed 3 peers' assignments and discussed with them their mistakes.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R10-Feb-2022" name="R10-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R10-Feb-2022&#39;, &#39;C10-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R10-Feb-2022&#39;, &#39;C10-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C10-Feb-2022" name="C10-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;10-Feb-2022&#39;, &#39;R10-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">11-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Basic Authentication: 
+
+Understood the basics of user authentication
+
+Used basic authentication support to authenticate users.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R11-Feb-2022" name="R11-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R11-Feb-2022&#39;, &#39;C11-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R11-Feb-2022&#39;, &#39;C11-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C11-Feb-2022" name="C11-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;11-Feb-2022&#39;, &#39;R11-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">12-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Set up your Express application to use cookies.
+
+Set up the Express server to use express-session to track authenticated users.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R12-Feb-2022" name="R12-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R12-Feb-2022&#39;, &#39;C12-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R12-Feb-2022&#39;, &#39;C12-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C12-Feb-2022" name="C12-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;12-Feb-2022&#39;, &#39;R12-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">13-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Set up your Express application to use Passport to perform local authentication
+
+Set up token-based authentication with Passport, jsonwebtoken, and Express.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R13-Feb-2022" name="R13-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R13-Feb-2022&#39;, &#39;C13-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R13-Feb-2022&#39;, &#39;C13-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C13-Feb-2022" name="C13-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;13-Feb-2022&#39;, &#39;R13-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">14-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Reference a MongoDB document from another document
+
+Use Mongoose population to populate information into a document from a referenced document</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R14-Feb-2022" name="R14-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R14-Feb-2022&#39;, &#39;C14-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R14-Feb-2022&#39;, &#39;C14-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C14-Feb-2022" name="C14-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;14-Feb-2022&#39;, &#39;R14-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">15-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Assignment 3 :
+I  have completed the following:
+
+Check if a verified ordinary user also has Admin privileges.
+
+Allow any one to perform GET operations
+
+Allow only an Admin to perform POST, PUT and DELETE operations
+
+Allow an Admin to be able to GET all the registered users' information from the database
+
+Allow a registered user to submit comments (already completed), update a submitted comment and delete a submitted comment. The user should be restricted to perform such operations only on his/her own comments. No user or even the Admin can edit or delete the comments submitted by other users.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R15-Feb-2022" name="R15-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R15-Feb-2022&#39;, &#39;C15-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R15-Feb-2022&#39;, &#39;C15-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C15-Feb-2022" name="C15-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;15-Feb-2022&#39;, &#39;R15-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">16-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Reviewed 3 peers' assignments and discussed with them their mistakes.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R16-Feb-2022" name="R16-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R16-Feb-2022&#39;, &#39;C16-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R16-Feb-2022&#39;, &#39;C16-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C16-Feb-2022" name="C16-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;16-Feb-2022&#39;, &#39;R16-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">17-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Understand about secure communication between the client and server using the HTTPS protocol</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R17-Feb-2022" name="R17-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R17-Feb-2022&#39;, &#39;C17-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R17-Feb-2022&#39;, &#39;C17-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C17-Feb-2022" name="C17-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;17-Feb-2022&#39;, &#39;R17-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">18-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Set up the server to use HTTPS and configure the certificate and private key for use with HTTPS</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R18-Feb-2022" name="R18-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R18-Feb-2022&#39;, &#39;C18-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R18-Feb-2022&#39;, &#39;C18-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C18-Feb-2022" name="C18-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;18-Feb-2022&#39;, &#39;R18-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">19-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Configure the Multer module to enable file uploading
+
+Set up your Express server to use Multer to upload files to a designated folder</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R19-Feb-2022" name="R19-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R19-Feb-2022&#39;, &#39;C19-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R19-Feb-2022&#39;, &#39;C19-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C19-Feb-2022" name="C19-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;19-Feb-2022&#39;, &#39;R19-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">20-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Use the CORS NPM module to enable CORS support
+
+Enable your Express application to support CORS requests by configuring the CORS module</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R20-Feb-2022" name="R20-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R20-Feb-2022&#39;, &#39;C20-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R20-Feb-2022&#39;, &#39;C20-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C20-Feb-2022" name="C20-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;20-Feb-2022&#39;, &#39;R20-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">21-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Use an OAuth providers for authenticating users within your server.
+
+</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R21-Feb-2022" name="R21-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R21-Feb-2022&#39;, &#39;C21-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R21-Feb-2022&#39;, &#39;C21-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C21-Feb-2022" name="C21-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;21-Feb-2022&#39;, &#39;R21-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">22-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Set up my server using Passport OAuth modules to enable user authentication using OAuth providers.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R22-Feb-2022" name="R22-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R22-Feb-2022&#39;, &#39;C22-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R22-Feb-2022&#39;, &#39;C22-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C22-Feb-2022" name="C22-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;22-Feb-2022&#39;, &#39;R22-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">23-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Assignment 4: 
+Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
+
+Allowed users to retrieve the list of their favorite dishes from the server
+
+Delete one or all of their favorite dishes from their favorites list on the server.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R23-Feb-2022" name="R23-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R23-Feb-2022&#39;, &#39;C23-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R23-Feb-2022&#39;, &#39;C23-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C23-Feb-2022" name="C23-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;23-Feb-2022&#39;, &#39;R23-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">24-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Reviewed 3 peers' assignments and discussed with them their mistakes.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R24-Feb-2022" name="R24-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R24-Feb-2022&#39;, &#39;C24-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R24-Feb-2022&#39;, &#39;C24-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C24-Feb-2022" name="C24-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;24-Feb-2022&#39;, &#39;R24-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">25-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Integrate my client side application written in Angular with a REST API server
+
+Support user registration and authentication</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R25-Feb-2022" name="R25-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R25-Feb-2022&#39;, &#39;C25-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R25-Feb-2022&#39;, &#39;C25-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C25-Feb-2022" name="C25-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;25-Feb-2022&#39;, &#39;R25-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">26-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Integrate my client side application written in React with a REST API server
+
+Support user registration and authentication</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R26-Feb-2022" name="R26-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R26-Feb-2022&#39;, &#39;C26-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R26-Feb-2022&#39;, &#39;C26-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C26-Feb-2022" name="C26-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;26-Feb-2022&#39;, &#39;R26-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">27-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Position the use of BaaS as an alternative to full-fledged in-house server-side implementation
+
+Understand and use Firebase to quickly build backend support for your applications</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R27-Feb-2022" name="R27-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R27-Feb-2022&#39;, &#39;C27-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R27-Feb-2022&#39;, &#39;C27-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C27-Feb-2022" name="C27-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;27-Feb-2022&#39;, &#39;R27-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								      <tr>
+								        <td style="border: 1px solid #546984;"> <span style="font-weight:bold; color:blue;">28-Feb-2022</span></td>
+								        <td style="border: 1px solid #546984;">
+						        			<span style="font-weight:bold; color:#330000; display: block; word-wrap: break-word;">Understand and use Loopback to quickly build backend support for your applications
+
+Configure my Angular application to use Loopback as the BaaS provider.</span>
+								        </td>
+								        <td style="border: 1px solid #546984;">
+								        	<textarea class="form-control" style="resize:none" rows="5" cols="15" id="R28-Feb-2022" name="R28-Feb-2022" maxlength="1000" onkeyup="javascript:TextCounter(&#39;R28-Feb-2022&#39;, &#39;C28-Feb-2022&#39;, &#39;1000&#39;);" onkeypress="javascript:TextCounter(&#39;R28-Feb-2022&#39;, &#39;C28-Feb-2022&#39;, &#39;1000&#39;);"></textarea>
+								        	 &nbsp;<br><input class="textbox" type="text" id="C28-Feb-2022" name="C28-Feb-2022" size="5" maxlength="3" value="1000" readonly="readonly"> Characters left
+								        </td>
+								        <td style="border: 1px solid #546984;">								        	
+								        	<button id="addBtn" name="addBtn" type="button" onclick="javascript:AddActivityDetails(&#39;28-Feb-2022&#39;, &#39;R28-Feb-2022&#39;,  &#39;2021220502506&#39;);" class="btn btn-success btn-xs">Add
+								        		<!-- <span class="glyphicon glyphicon-plus"></span>add --></button>     		
+								        </td>
+								      </tr>
+								    </tbody>
+								 </table>							
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+<noscript>
+	<h2 class="text-red">Enable JavaScript to Access VTOP</h2>
+</noscript>
+<script>
+	/*<![CDATA[*/
+		function TextCounter(textid, countid, maxlimit){					
+			var textValue = $('#' + textid).val();
+			var subValue;
+			if (textValue.length > maxlimit){	// if too long...trim it!	
+				subValue =  textValue.substring(0, maxlimit)
+				$('#' + textid).val(subValue);
+			}else {	// otherwise, update 'characters left' counter			
+				$('#' + countid).val( maxlimit - textValue.length);
+			} 
+		}
+		function AddActivityDetails(activityDate, activityInfo, internshipId){					 
+			var vldFlg = 1;
+			var intDiary =  $('#'+activityInfo).val();				
+			if (intDiary == ''){
+				vldFlg = 0;
+				alert ("Enter the Activity");
+			} 					
+			if (vldFlg == 1){
+				var id="19BCE0172";
+				var now = new Date();
+				var dataParameter ="activityDate="+ activityDate  +
+						"&activityInfo=" +encodeURIComponent( $('#'+activityInfo).val() )+
+						"&internshipId="+ internshipId+ "&authorizedID="+ id + "&x="+now.toUTCString();
+				$.ajax({
+					url : "Internship/ProcessDaytoDayDiary",
+					type : "POST",
+					data : dataParameter,
+					success : function(response) {
+						$("#main-section").html(response);
+					},
+					error : function(jqXHR, textStatus,	errorMessage) {
+						swal("Oops","Something went wrong!","error");
+					}
+				});		
+			}
+		}
+	function EditActivityDetails(activityDate, activityInfo, internshipId){				 
+		var vldFlg = 1;
+		var intDiary =  $('#'+activityInfo).val();
+		if (vldFlg == 1){
+			var id="19BCE0172";
+			var now = new Date(); 
+			var dataParameter ="activityDate="+ activityDate  +
+					"&activityInfo=" + $('#'+activityInfo).val() +
+					"&internshipId="+ internshipId+ "&authorizedID="+ id + "&x="+now.toUTCString();
+			$.ajax({
+				url :  "Internship/ProcessEditDaytoDayDiary",
+				type : "POST",
+				data : dataParameter,
+				success : function(response) {
+					$("#main-section").html(response);
+				},
+				error : function(jqXHR, textStatus,	errorMessage) {
+					swal("Oops","Something went wrong!","error");
+				}
+			});	
+		}
+	}				
+	function goBack(page){
+		var id="19BCE0172";
+		var now = new Date(); 
+		var dataParameter = "UrlPage=" + page+ "&authorizedID="+ id + "&x="+now.toUTCString();		
+		$.ajax({
+			url :  "Internship/ProcessGoBack",
+			type : "POST",
+			data : dataParameter,
+			success : function(response) {
+				$("#main-section").html(response);
+			},
+			error : function(jqXHR, textStatus,	errorMessage) {
+				swal("Oops","Something went wrong!","error");
+			}
+		});				
+	}
+/*]]>*/
+</script>
+		</section>
+	</div></div>
+
+</div>
+									</div>
+								</div>
+
+							
+
+						</div>
+					</div>
+				</div>
+
+
+				<script>
+					/*<![CDATA[*/
+
+					function vtopDownload(urlText, dataToSend) {
+						var params = null;
+						var id ="19BCE0172";
+						var now = new Date();
+						if (dataToSend === 'null' || dataToSend === undefined || dataToSend === null || dataToSend === '') {
+							params = "authorizedID=" + id + "&x=" + now.toUTCString();
+						} else {
+							params = dataToSend + "&authorizedID=" + id + "&x=" + now.toUTCString();
+						}
+
+						window.open(urlText + '?' + params); 
+							$.unblockUI();
+					}
+
+
+					/*
+											$(function(){
+												$('#page-wrapper').slimScroll({
+													size : '7px',
+													distance : '0px',
+													color: '#3498DB',
+													height: 'auto',
+													wheelStep: 2,
+													railVisible: true,
+													railColor: '#AED6F1',
+													alwaysVisible: true,
+													allowPageScroll:true
+												});
+											}); */
+
+
+					/* 						$(function(){
+												$('#scrollT').slimScroll({
+													size : '3px',
+													distance : '0px',
+													color: '#85C1E9',
+													height: 'auto',
+													wheelStep: 2,
+													allowPageScroll:true
+												});
+											});
+					 */
+
+					/*]]>*/
+				</script>
+
+
+				
+			
+		</div>
+	
+				
+			
+ 
+			  
+			
+
+		</div>
+			
+
+		
+		<div class="modal fade" id="myModalFooter" role="dialog">
+		  <div class="modal-dialog">		  
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">×</button>
+		        <h4 class="modal-title" style="color:red;">Sorry !!!</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p style="color:green;">This page is under Construction !!! Please try later</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		    
+		  </div>
+		</div>
+
+		<script src="./Vellore Institute of Technology (VIT)_files/jquery-3.3.1.js.download"></script>
+		<script src="./Vellore Institute of Technology (VIT)_files/moment.js.download"></script>
+		<script src="./Vellore Institute of Technology (VIT)_files/jquery.hotkeys.js.download"></script>
+		<script src="./Vellore Institute of Technology (VIT)_files/jquery.slimscroll.js.download"></script>
+		<script src="./Vellore Institute of Technology (VIT)_files/jquery.blockUI.js.download"></script>		
+		<script src="./Vellore Institute of Technology (VIT)_files/jquery-ui.js.download"></script>
+		<script src="./Vellore Institute of Technology (VIT)_files/popper.js.download"></script>
+		<script src="./Vellore Institute of Technology (VIT)_files/bootstrap.js.download"></script>
+		<script src="./Vellore Institute of Technology (VIT)_files/bootstrapValidator.js.download"></script>
+		<script src="./Vellore Institute of Technology (VIT)_files/vtop-validation.js.download"></script>
+		<script type="text/javascript" src="./Vellore Institute of Technology (VIT)_files/vit-custom.js.download"></script>
+		<script type="text/javascript" src="./Vellore Institute of Technology (VIT)_files/jquery.validationEngine-en.js.download"></script>
+ 		<script type="text/javascript" src="./Vellore Institute of Technology (VIT)_files/jquery.validationEngine.js.download"></script>
+		
+ 		<script type="text/javascript">
+		
+			window.onload = function() {
+				document.onkeydown = function(e) {
+					return (e.which || e.keyCode) != 116;
+				};
+			    $("body").css("padding-top", $(".navbar-fixed-top").height());
+			}
+			
+			history.pushState(null, null, document.URL);
+			window.addEventListener('popstate', function() {
+				history.pushState(null, null, document.URL);
+			});
+
+		
+			/* $(window).bind("onunload", function() { 
+				$.blockUI();
+				ajaxCall("/cloneLogout",null,null);
+				$.unblockUI();
+			}) */
+
+		
+			$(document).bind('keydown', 'alt+right', function(e) {
+				e.preventDefault();
+			});
+
+			$(document).bind('keydown', 'alt+left', function(e) {
+				e.preventDefault();
+			});
+			
+			history.pushState(null, null, document.URL);
+			window.addEventListener('popstate', function() {
+				history.pushState(null, null, document.URL);
+			});
+ 			
+			$(window).on("unload",function() {
+				$.ajax({
+					type : "POST",
+					url : "cloneLogout",
+					success : function(response){
+					},
+					error : function(jqXHR, textStatus, errorMessage) {
+					}		
+				})
+			}); 
+
+			function doRefreshCaptcha() 
+			{
+	
+				$.ajax({
+					url : "doRefreshCaptcha",									
+					type : "POST",
+					cache : false,
+					processData : false,
+					contentType : false,
+					success : function(response)				
+					{	
+						$("#captchaRefresh").html(response);
+						
+					
+					}
+			 	});
+			}
+			
+		</script>
+			
+			
+		<script>
+		/*<![CDATA[*/
+			
+
+			
+			function resizeDiv() {
+				
+/*  				var winHeight=$( window ).height()-95;
+				$("body").css("height",winHeight+"px");
+				$("#page-content").css("height",winHeight+"px");
+				$("#sidebar-wrapper").css("height",winHeight+"px");*/
+			
+ 		}
+ 
+		   /* $("html").on("contextmenu",function(e){
+		        return false;
+		     });
+
+		     window.oncontextmenu = function () {
+		     return false;
+		     }
+		     $(document).keydown(function (event) {
+		     if (event.keyCode == 123) {
+		     return false;
+		     }
+		     else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
+		     return false;
+		     }
+		     }); */
+		 
+			function resetPassword() {
+			  ajaxCall('resetPassword',null,'page_outline');
+			}
+			 
+			function forgotUserID() {
+			  ajaxCall('forgotUserID',null,'page_outline');
+			}			
+
+			function validateOTP() {
+				var data="otp="+$("#otp").val();
+				ajaxCall('validateParentLoginOtp',data,'page_outline');
+			}
+			
+			function openPage()	{
+				ajaxCall("vtopLogin",null,"page_outline");
+			}
+			
+			function openParentPage()	{
+				ajaxCall("vtopParentLogin",null,"page_outline");
+			}
+			
+			function openAlumniPage()	{
+				ajaxCall("alumni/alumniLoginPageControl",null,"page_outline");
+			}
+			
+
+			
+			
+			/*]]>*/
+		</script>			
+			
+	
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
